@@ -15,7 +15,7 @@ const DessertWinePage: NextPage = () => {
 			<h1>Wine</h1>
 			<main>
 				{data.map((wineData: Wine) => {
-					return <WineCard key={`dessert-wine-list-${wineData.id}`} wineData={wineData} />;
+					return <WineCard key={`${name}-wine-list-${wineData.id}`} wineData={wineData} />;
 				})}
 			</main>
 		</div>
