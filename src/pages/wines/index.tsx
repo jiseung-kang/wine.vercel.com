@@ -1,8 +1,9 @@
 import type { NextPage } from 'next';
+import styles from '../styles/Home.module.css';
 
 const WinesPage: NextPage = () => {
 	return (
-		<div>
+		<div className={styles.container}>
 			<h1>Wines</h1>
 			<ul>
 				<li>
