@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 				<div className={styles.grid}>
 					<a href="wines" className={styles.card}>
 						<h2>🍷 Drink Wine &rarr;</h2>
-						<p>ed, White, Rose, Port, Sparkling, Dessert</p>
+						<p>Red, White, Rose, Port, Sparkling, Dessert</p>
 					</a>
 
 					<a href="beers" className={styles.card}>
