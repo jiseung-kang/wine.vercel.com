@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					Welcome to <a href="">Wine and Beer</a>
+					Welcome to <a href="#">Wine and Beer</a>
 				</h1>
 
 				<p className={styles.description}>Which one do you want to drink on this 🎄christmas🎄</p>
