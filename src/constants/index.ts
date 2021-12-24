@@ -7,3 +7,53 @@ export const MEDIA_QUERY_END_POINT = {
 	DESKTOP: '1920px',
 	LARGE: '2560px',
 };
+
+export const ROUTES = [
+	{
+		MAIN: {
+			ID: 0,
+			PATH: '/beers',
+			LABEL: '맥주',
+			SUBS: [
+				{
+					ID: 0,
+					PATH: 'ale',
+					LABEL: '스타우트',
+					ORDER: 1,
+				},
+				{
+					ID: 1,
+					PATH: 'ale',
+					LABEL: '스타우트',
+					ORDER: 1,
+				},
+				{
+					ID: 2,
+					PATH: 'ale',
+					LABEL: '스타우트',
+					ORDER: 1,
+				},
+			],
+		},
+	},
+];
+
+// export const ROUTES = {
+// 	BEERS: {
+// 		MAIN: '/beers',
+// 		SUBS: [
+// 			{
+// 				PATH: '/ale',
+// 				LABEL: '에일',
+// 				ORDER: 0,
+// 			},
+// 			{
+// 				ID: 1,
+// 				PATH: '/stouts',
+// 				LABEL: '스타우트',
+// 				ORDER: 1,
+// 			},
+// 		],
+// 	},
+// 	WINES: {},
+// };
