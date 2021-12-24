@@ -27,12 +27,13 @@ export const WineCardList = ({ name }: WineCardListProps) => {
 };
 
 const WineTitle = styled.h1`
-	font-size: 1.5em;
 	line-height: 180%;
+	border-bottom: 1px solid #eee;
 `;
 
 const WineCardContainer = styled.main`
 	display: grid;
+	gap: 1em;
 	@media (min-width: ${MEDIA_QUERY_END_POINT.MOBILE}) {
 		grid-template-columns: repeat(2, 1fr);
 	}

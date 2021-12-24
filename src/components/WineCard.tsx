@@ -10,16 +10,15 @@ export const WineCard = ({ wineData }: WineProps) => {
 
 	return (
 		<Container>
-			<img src={image} alt="" />
-			<Title>
+			<img src={image} alt="wine image" />
+			<h2>
 				{wine}
 				<Average>{rating.average}</Average>
-			</Title>
+			</h2>
 			<p>
-				{winery}
-				<span>{location}</span>
+				{winery} - {location}
 			</p>
-			<p>별점 : {rating.reviews.replace(' ratings', '')}</p>
+			<p>등록된 리뷰 : {rating.reviews.replace(' ratings', '')}</p>
 		</Container>
 	);
 };
@@ -34,13 +33,9 @@ const Container = styled.div`
 	border-radius: 1em;
 `;
 
-const Title = styled.h2`
-	text-align: center;
-`;
-
-const ImageContainer = styled.div`
-	width: 100%;
-`;
+// const Title = styled.h2`
+// 	text-align: center;
+// `;
 
 const Average = styled.span`
 	display: inline-block;
@@ -48,6 +43,6 @@ const Average = styled.span`
 	font-size: 16px;
 	margin-left: 0.5em;
 	color: white;
-	backgroung-color: #2acbc;
+	backgroung-color: #2ac1bc;
 	border-radius: 3px;
 `;
